@@ -1,0 +1,141 @@
+
+.form-container {
+    margin: 0 auto;
+    background-color: #181818;
+    padding: 100px;
+    border-radius: 8px;
+    color: white;
+    line-height: 1.5;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.form-grid .form-group {
+    display: flex;
+    flex-direction: column;
+}
+.form-grid .form-group label{
+ font-size: 20px;
+ font-weight: 600;
+ padding-bottom: 16px;
+}
+
+.form-grid .form-group input,
+.form-grid .form-group select{
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #262626;
+    border: 1px solid #666666;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+.form-grid .form-group select {
+    font-size: 18px;
+        line-height: 20px;
+        font-size: 500;
+        color: #666666;
+    appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('./../../assets/arrowdown.svg');
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        background-size: 28px;
+}
+
+.form-grid .form-group input::placeholder,
+.form-grid .form-group select::placeholder,
+.form-grid .form-group textarea::placeholder{
+font-size: 18px;
+line-height: 20px;
+font-size: 500;
+color: #666666;
+}
+
+
+.form-grid .form-group textarea {
+    padding: 24px 20px; 
+    border: none;
+    border-radius: 8px;
+    background-color: #262626;
+        border: 1px solid #666666;
+    color: white;
+    margin-top: 5px;
+    height: 170px;
+}
+
+
+
+.form-grid .form-group textarea {
+    resize: vertical;
+}
+
+.grid--span-3 {
+    grid-column: span 3;
+}
+
+.form-agreement {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.form-agreement input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.submit--container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    color: #999999;
+}
+
+
+.submit--container .form-submit button:hover {
+    background-color: #703BF7;
+}
+
+.submit--container .form-agreement label a {
+    text-decoration: underline;
+    color: #999999;
+}
+
+.submit--container .form-agreement label{
+    padding-left: 15px;
+}
+
+.submit--container .form-agreement .box{
+    height: 28px;
+    width: 28px;
+    background-color: #262626;
+    border-radius: 4px;
+    position: absolute;
+    top: -1;
+    left: -1px;
+    z-index: 0;
+}
+
+.submit--container .form-agreement input[type=checkbox]{
+opacity: 0;
+z-index: 1;
+}
+
+.submit--container .form-agreement input[type=checkbox]:checked ~ .box  {
+    background-color: #703BF7;
+}
+
+.contact--form-button{
+    background-color: #703BF7;
+    cursor: pointer;
+}

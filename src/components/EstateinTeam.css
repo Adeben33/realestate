@@ -1,0 +1,15 @@
+
+.estateinTeam{
+margin-top: 120px;
+}
+
+.estateinTeam .teams{
+    padding-left: 10px;
+}
+
+
+.estateinTeam .team--container {
+    display: flex;
+    justify-content: space-between;
+}
+

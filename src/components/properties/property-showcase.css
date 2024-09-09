@@ -1,0 +1,87 @@
+
+
+
+.property-showcase{
+    background-color: #141414;
+   min-width: 32%;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #999999;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.property-showcase .propertyImg {
+
+}
+.property-showcase .property--info {
+    margin-top: 30px;
+}
+
+.property-showcase .property--info .heading{
+font-size: 24px;
+font-weight: 600;
+padding-top: 20px;
+}
+
+.property-showcase .property--info .heading span{
+display: block;
+font-size: 18px;
+font-weight: 500;
+padding-top: 6px;
+
+color: #999999;
+}
+
+.property-showcase .property--info .heading span a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+
+.property-showcase .property--info .motto {
+    border: 1px solid #999999;
+    padding: 8px 14px;
+    display: inline-block;
+    border-radius: 28px;
+    font-weight: 500;
+   white-space: nowrap;
+    background-color: #262626;
+}
+
+.property-showcase .property--info .property-feactures{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.property-showcase .property--info .property-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    /* padding-bottom: 0; */
+}
+
+.property-showcase .property--info .property-details .price {
+line-height: 1.5;
+font-weight: 500;
+}
+
+.property-showcase .property--info .property-details .price span{
+display: flex;
+font-size: 24px;
+font-weight: 600;
+}
+
+.property-details-button{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #703BF7;
+}

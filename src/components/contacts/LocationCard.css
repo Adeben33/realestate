@@ -1,0 +1,39 @@
+
+
+.locationCard{
+line-height: 1.5;
+padding: 50px;
+border: 1px solid #999999;
+border-radius: 12px;
+font-size: 18px;
+}
+
+.locationCard .heading{
+font-size: 30px;
+font-weight: 600;
+margin-top: 10px;
+}
+
+
+.locationCard .heading-p {
+letter-spacing: -0.6%;
+
+}
+
+
+.locationCard .locationCard-text{
+color: #999999;
+padding-right: 50px;
+}
+
+.locationCard .locationCard-button{
+    width: 100%;
+    justify-content: center;
+    background-color: #703BF7 ;
+}
+
+.locationCard .info{
+    display: flex;
+    gap: 10px;
+    margin: 40px 0;
+}

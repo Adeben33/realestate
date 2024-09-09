@@ -1,0 +1,37 @@
+
+.featured-property {
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+
+.featured-property .featured-properties__text {
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+}
+
+
+
+ .featured-property .featured-properties__text .heading  {
+    font-size: 48px;
+    padding-right: 70px;
+}
+
+.headingText{
+    white-space: nowrap;
+}
+
+.featured-property .featured-properties__text .heading .text{
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #999999;
+}
+
+.featured-property .featured-properties__text .btn {
+    align-self: end;
+}

@@ -1,0 +1,10 @@
+
+
+.propertyValueComponent{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border: 12px solid #1A1A1A;
+        background-color: #141414;
+}

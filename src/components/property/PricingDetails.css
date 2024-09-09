@@ -1,0 +1,40 @@
+
+.PricingDetails{
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+
+.PricingDetails .PricingDetails--container{
+    padding-left: 15px;
+
+}
+
+
+.PricingDetails .PricingDetails--container .PricingDetail--container .Listing-Price{
+    max-width: 15%;
+    font-weight: 600;
+}
+
+.PricingDetails .PricingDetails--container .PricingDetail--container .Listing-Price span{
+font-size: 40px;
+}
+
+.PricingDetails .PricingDetails--container .PricingDetail--container {
+    display: flex;
+    gap: 50px ;
+}
+
+.PricingDetails .PricingDetails--container .PricingDetail--container  .pricingAndCostList {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+
+
+.PricingDetails .PricingDetails--container h5{}
+
+
+.PricingDetails .PricingDetails--container .price {}

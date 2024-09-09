@@ -1,0 +1,45 @@
+/* Explore */
+
+.explore {
+    padding: 132px;
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    background-image: url("./../assets/CTA.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    line-height: 1.5;
+}
+
+
+.explore .text {
+    font-size: 48px;
+    font-size: 600;
+    color: #fff;
+    font-weight: 600;
+    /* padding-right: 100px ; */
+    margin-bottom: 14px;
+}
+
+.explore .text span {
+    display: block;
+    font-size: 18px;
+    color: #999999;
+    
+}
+
+.explore .explore-button {
+    background-color: #703BF7;
+}
+
+
+/* TESTING */
+
+.testing1 {
+    margin: 40px 130px;
+    padding: 0;
+    overflow: hidden;
+}

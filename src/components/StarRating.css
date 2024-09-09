@@ -1,0 +1,17 @@
+
+.star{
+height: 44px;
+width: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background-color: #1A1A1A;
+border: 1px solid #262626;
+}
+
+
+.starRating{
+display: flex;
+gap: 10px;
+}

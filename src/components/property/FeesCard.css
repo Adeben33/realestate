@@ -1,0 +1,31 @@
+
+
+.FeesCard{
+
+line-height: 1.5;
+border-radius: 12px;
+}
+
+
+.FeesCard .header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 40px;
+}
+
+.FeesCard .header h4{
+font-size: 24px;
+font-weight: 600;
+}
+
+.FeesCard .header .Fees-card{
+
+}
+
+
+
+
+
+
+ 

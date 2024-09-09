@@ -1,0 +1,49 @@
+.valueCard {
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content: left;
+
+}
+
+.valueCard .iconContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 14px ;
+    /* margin-bottom: 10px; */
+}
+
+
+.valueCard .icon {
+height: 74px;
+width: 74px;
+display: flex;
+justify-content: center;
+align-items: center;
+    /* margin-bottom: 10px; */
+    background-color: transparent;
+    border: 2px solid #703BF7;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.valueCard .iconContainer .icon {
+    font-size: 34px;
+    color: #6a5acd;
+}
+
+.valueCard .iconContainer h3 {
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.valueCard .cardDescription {
+    margin: 20px 0 0px 0 ;
+    line-height: 1.5;
+    color: #999999;
+    align-self: flex-end;
+    justify-self: end;
+align-items: end;
+}

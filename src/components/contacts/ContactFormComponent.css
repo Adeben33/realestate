@@ -1,0 +1,9 @@
+.contactFormComponent{
+    padding-top: 100px;
+
+}
+
+
+.contactFormComponent .contactForm{
+    padding-left: 15px;
+}

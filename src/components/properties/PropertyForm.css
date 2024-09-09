@@ -1,0 +1,244 @@
+
+
+
+.propertyList{
+    font-size: 18px;
+    
+}
+
+
+.propertyList .propertyList--section{
+    padding-left: 15px;
+}
+
+
+/* form css */
+
+.propertyList .propertyList--section .form-container{
+  
+
+}
+
+.grid-column-span-2 {
+    grid-column: span 2;
+}
+
+.grid-column-span-4 {
+    grid-column: span 4;
+}
+
+.propertyList .propertyList--section .form-container {
+    /* background-color: #181818; */
+    padding: 100px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #666666;
+}
+
+
+.propertyList .propertyList--section .form-component{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.propertyList .propertyList--section .form-group {
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+    
+}
+
+.propertyList .propertyList--section .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.propertyList .propertyList--section .form-group input,
+.propertyList .propertyList--section .form-group select{
+    padding: 24px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #262626;
+    color: white;
+    font-size: 18px;
+}
+
+.propertyList .propertyList--section .form-group textarea 
+{
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #262626;
+        color: white;
+    }
+
+.propertyList .propertyList--section .form-group input::placeholder{
+color: #666666;
+line-height: 20px;
+font-weight: 500;
+font-size: 18px;
+}
+
+.propertyList .propertyList--section .form-group select{
+     appearance: none;
+    background-image: url('./../../assets/arrowdown.svg');
+    color: #666666;
+    font-weight: 500;
+        font-size: 18px;
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 10px;
+       background-size: 24px;
+       padding: 22px 20px;
+}
+
+
+
+
+
+.propertyList .propertyList--section .form-group input[type="checkbox"] {
+    /* width: auto; */
+    margin-right: 10px;
+}
+
+
+
+
+.propertyList .propertyList--section .form-container form .form-component .preferred-contact-method .method{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.propertyList .propertyList--section .form-container form .form-component 
+.preferred-contact-method .method .method--number{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #262626;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0px 24px;
+    position: relative;
+}
+
+.propertyList .propertyList--section 
+.form-container form .form-component 
+.preferred-contact-method .method .method--number input[type="text"] {
+    width: 100%;
+    padding-left: 12px;
+    /* padding: 0; */
+}
+
+
+
+.propertyList .propertyList--section .form-container 
+form .form-component .preferred-contact-method .method .method--number .box{
+min-height: 16px;
+min-width: 16px;
+/* content: ""; */
+/* background-color: #703BF7; */
+border-radius: 50%;
+border: 1px solid #703BF7;
+position: absolute;
+right: 22px;
+}
+
+.propertyList .propertyList--section .form-container 
+form .form-component .preferred-contact-method .method 
+.method--number input[type="radio"] {
+    z-index: 1;
+   opacity: 0;
+}
+
+.propertyList .propertyList--section .form-container form
+.form-component .preferred-contact-method .method .method--number 
+input[type="radio"]:checked ~ .box {
+    background-color: #703BF7;
+}
+
+.propertyList .propertyList--section  .preferred-contact-method input {
+    /* width: 100%; */
+}
+
+
+
+/* .propertyList .propertyList--section  .preferred-contact-method input[type="radio"] {
+    margin-right: 5px;
+} */
+
+
+.propertyList .propertyList--section .submit-button:hover {
+    background-color: #3700b3;
+}
+
+
+
+.propertyList .propertyList--section .form-container .form-group textarea::placeholder {
+    color: #666666;
+    /* padding: 24px 20px; */
+    font-size: 18px;
+}
+
+.propertyList .propertyList--section .form-container .form-group textarea {
+    color: #666666;
+    height: 170px;
+    border-radius: 8px;
+    padding: 24px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.propertyList .propertyList--section .form-container .termsAndSend{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.propertyList .propertyList--section  .form-container .termsAndSend .submit-button {
+    background-color: #6200ea;
+    color: white;
+    height: 60px;
+    padding: 18px 46px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    /* width: 100%; */
+    font-size: 18px;
+}
+
+.propertyList .propertyList--section .form-container .termsAndSend label input[type="checkbox"] {
+    display: block;
+    margin-right: 30px;
+opacity: 0;
+}
+
+.propertyList .propertyList--section .form-container .termsAndSend label a{
+text-decoration: underline;
+color: #fff;
+}
+
+.propertyList .propertyList--section .form-container .termsAndSend label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* height: 60px; */
+
+}
+.propertyList .propertyList--section .form-container .termsAndSend label .box{
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+    background-color: #262626;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+
+.propertyList .propertyList--section .form-container .termsAndSend label input[type="checkbox"]:checked ~ .box{
+    background-color: #703BF7;
+}

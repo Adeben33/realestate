@@ -1,0 +1,23 @@
+
+
+.achievementCard{
+    padding: 50px;
+    min-width: 32%;
+    line-height: 1.5;
+    font-weight: 600;
+    border: 5px solid #262626;
+    border-radius: 12px;
+
+}
+
+.achievementCard .heading{
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+
+.achievementCard .text{
+
+}
+
+

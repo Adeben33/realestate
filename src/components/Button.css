@@ -1,0 +1,26 @@
+
+.custom-button {
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Urbanist', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    width: auto;
+    height: 63px;
+}
+
+
+.custom-button:active,
+ .custom-button:hover,
+.custom-button:active,
+ .custom-button:hover{
+background-color: #703BF7;
+}

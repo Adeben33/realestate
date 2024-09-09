@@ -1,0 +1,19 @@
+
+.ourAchievements {
+  
+}
+
+.ourAchievements :not(img){
+   
+}
+
+.ourAchievements .ourAchievement-container{
+padding-left: 10px;
+}
+
+.ourAchievements .achievements--list{
+    display: flex;
+    gap: 30px;
+}
+
+

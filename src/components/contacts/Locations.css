@@ -1,0 +1,29 @@
+.locations-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.locations{
+    padding-left: 15px;
+}
+
+.locations .locations-list{
+    display: flex;
+    gap: 30px;
+}
+
+.locations-btn {
+    display: inline-flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+   background-color: #262626 ;
+}
+
+
+.locations-btn .locations-btn-button{
+    width: 158.67px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #999999;
+}

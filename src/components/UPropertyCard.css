@@ -1,0 +1,39 @@
+
+
+
+.propertyCard{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    line-height: 1.5;
+    
+}
+
+.propertyCard .heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+
+.grid--span-2{
+    grid-column: span 2;
+}
+
+.propertyCard .heading img{}
+
+
+.propertyCard .heading h3 {
+    white-space: nowrap;
+}
+
+.propertyCard .text{
+
+}

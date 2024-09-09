@@ -1,0 +1,36 @@
+
+
+.carousel .showcase{ 
+    display: flex;
+    gap: 30px;
+    transition: transform 0.5s ease;
+    /* overflow: hidden; */
+}
+
+.carousel .pagination-control {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 50px;
+border-top: 1px solid #999999 ;
+padding-top:30px ;
+}
+
+.carousel .pagination-control .count{
+
+}
+
+.carousel .pagination-control .button {
+display: flex;
+gap: 10px;
+}
+
+.carousel .pagination-control .button .arrow {
+width: 58px;
+height: 58px;
+border: 1px solid #808080;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}

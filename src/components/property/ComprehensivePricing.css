@@ -1,0 +1,38 @@
+.ComprehensivePricing{
+padding: 50px;
+border: 1px solid #262626;
+border-radius: 12px;
+width: 100%;
+}
+
+
+.ComprehensivePricing .grid--containter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.ComprehensivePricing .grid--containter .line{
+    grid-column: 1 / -1;
+    height: 2px;
+    background-color: #262626;
+   
+}
+
+
+
+.ComprehensivePricing .grid--containter .line:not(:nth-child(1)){
+margin: 40px 0;
+}
+
+.ComprehensivePricing .grid--containter .line:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+
+.ComprehensivePricing .grid--containter .FeesOrCostCard:nth-child(3),
+.ComprehensivePricing .grid--containter .FeesOrCostCard:nth-child(6),
+.ComprehensivePricing .grid--containter .FeesOrCostCard:nth-child(9){
+    border-left: 1px solid #262626;
+    padding-left: 20px;
+}

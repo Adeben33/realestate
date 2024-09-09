@@ -1,0 +1,11 @@
+
+.amenitiesCard{
+    padding: 18px 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    border-left: 2px solid #703BF7;
+    background-image: linear-gradient(to right, #1A1A1A 31%,rgba(26, 26, 26, 0.50) 40%);
+}
+

@@ -1,0 +1,46 @@
+
+
+.container {
+display: flex;
+padding:74px 0px;
+
+}
+
+
+.container .container--textSection{
+    padding: 80px;
+    padding-left: 0;
+}
+
+.container .container--textSection :not(img){
+    padding-left: 10px;
+}
+
+.container .container--textSection .title{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+.container .container--textSection .description{
+    color: #999999;
+    margin-bottom: 80px;
+}
+.container .container--textSection .container--statsContainer{
+display: flex;
+gap: 20px ;
+}
+
+
+.container .container-imageSection{
+min-width: 50%;
+height: 1005;
+background-color: #1e1e1e5e;
+background-image: url(./../assets/Container.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: center center;
+background-blend-mode: color-burn;
+border: 1px solid #4D4D4D;
+border-radius: 12px;
+}

@@ -1,0 +1,31 @@
+
+.propertyValueUnlock{
+padding: 50px 50px;
+border: 1px solid #262626 ;
+border-radius: 12px;
+line-height: 1.5;
+background-image: url("./../assets/propertybackgroundpix.svg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.propertyValueUnlock .heading{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+font-size: 30px;
+font-weight: 700;
+}
+
+
+.propertyValueUnlock p {
+font-size: 18px;
+color:rgba(153, 153, 153, 0.60);
+/* padding-right:20px ; */
+font-size: 400;
+}
+
+.propertyValueUnlock  .heading .propertyValue-button{
+    background-color: #141414 ;
+}

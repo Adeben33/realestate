@@ -1,0 +1,10 @@
+.Experience{
+    margin-top: 100px;
+}
+
+.Experience .steps--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
+}

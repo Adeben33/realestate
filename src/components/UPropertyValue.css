@@ -1,0 +1,16 @@
+
+.uPropertyValue{
+   
+}
+
+
+.uPropertyValue .uPropertyValue-container {
+    padding-left: 15px;
+}
+
+
+.uPropertyValue .uPropertyValue-container .propertyValues {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}

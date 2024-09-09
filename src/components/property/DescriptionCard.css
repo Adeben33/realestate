@@ -1,0 +1,66 @@
+
+.descriptionCard{
+padding: 50px;
+border: 1px solid #666666;
+font-size: 18px;
+flex-grow: 0;
+height: 374px;
+border-radius: 12px;
+}
+
+
+.descriptionCard .heading{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.descriptionCard .text{
+    color: #999999;
+    margin-bottom: 50px;
+}
+
+
+.descriptionCard .features {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #666666;
+    padding-top: 20px;
+}
+
+
+.descriptionCard .features .feature{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    color: #999999;
+    width: 33%;
+}
+
+.descriptionCard .features .feature:not(:last-child){
+    border-right: 1px solid #666666;;
+}
+
+
+.descriptionCard .features .feature .number img{
+    display: block;
+    /* fill: #999999; */
+}
+
+
+
+.descriptionCard .features .feature .feature---name{
+    display: flex;
+    justify-content: cente;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.descriptionCard .features .feature .feature--number{
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}
